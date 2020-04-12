@@ -4,9 +4,9 @@
   "description": "This is a test project for Git and NodeJS",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/hansdah82/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1"
   }
 }
